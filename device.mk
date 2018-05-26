@@ -24,3 +24,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Inherit from kirin659-common
 $(call inherit-product, device/huawei/kirin659-common/kirin659.mk)
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2160
+TARGET_SCREEN_WIDTH := 1080
+
