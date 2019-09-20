@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/huawei/bond/bond-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/kirin659-common/kirin659-common-vendor.mk)
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
